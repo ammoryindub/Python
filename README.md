@@ -8,34 +8,9 @@ PythoPractice
 
 - nested lists
 
-# note that we break it down to show code steps, usually we can use the last code directly to locate 'hello'!
+- difference between a tuple and a list
 
-lst = [1,2,[30,40],[100,[1000,2000,['hello']],300,400,500],5,6]
-lst[3]
-[100, [1000, 2000, ['hello']], 300, 400]
-lst[3][1]
-[1000, 2000, ['hello']]
-lst[3][1][2]
-['hello']
-Given this nested dictionary grab the word "hello"
-# this time we have a dictionary with various values
 
-# note that we break it down to show code steps, usually we can use the last code directly to locate 'hello'!
-
-d = {'k1':[1,2,3,{'k2':['oh','my','gosh',{'k3':[1,2,3,'hello']}]}]}
-d['k1']
-[1, 2, 3, {'k2': ['oh', 'my', 'gosh', {'k3': [1, 2, 3, 'hello']}]}]
-d['k1'][3]
-{'k2': ['oh', 'my', 'gosh', {'k3': [1, 2, 3, 'hello']}]}
-d['k1'][3]['k2']
-['oh', 'my', 'gosh', {'k3': [1, 2, 3, 'hello']}]
-d['k1'][3]['k2'][3]
-{'k3': [1, 2, 3, 'hello']}
-d['k1'][3]['k2'][3]['k3']
-[1, 2, 3, 'hello']
-d['k1'][3]['k2'][3]['k3'][3]
-'hello'
-the main difference between a tuple and a list
 # list is mutable  while a tuple is immutable 
 A function that grabs the website domain from an email
 def get(email):
