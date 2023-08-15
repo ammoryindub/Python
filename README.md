@@ -11,28 +11,7 @@ PythoPractice
 - the difference between a tuple and a list
 
 
-# list is mutable  while a tuple is immutable 
-A function that grabs the website domain from an email
-def get(email):
-    return email.split('@')[1]
-get('test@test.com')
-'test.com'
-A function finds me if a certain word is in a string
-def find(s):
-    return 'hello' in s.lower().split()
-s = 'Hello there anyone home?'
-s.lower()
-'hello there anyone home?'
-s.split()
-['Hello', 'there', 'anyone', 'home?']
-find ('Hello there anyone home?')
-True
-A function counts how many times a word occurs in a string
-def count(w):
-    count = 0
-    for word in w.lower().split():
-        if word == 'he':
-            count = count+1
+
     return count
 count ('he loves me becasue after our date he bought me flowers')
 2
