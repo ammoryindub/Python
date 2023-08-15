@@ -2,28 +2,11 @@
 PythoPractice
 
 #### Python Skills
-Have few challenges that we will approach to solve with Python code!.
+- Split into a list
 
-X to the power of n
-t = 120 ** 8
-print (t)
-42998169600000000
-4 ** 4
-256
-using a string and split it into list
-t = "Hello World!"
-t.split()
-['Hello', 'World!']
-Using given variables into a code using .format
-# varibales  are :
+- Using variables in a code
 
-E = "Energy" 
-m = "mass"
-c = "speed of light"
-print ('To explain the meaning of E = mc**2, where {} = {} X {} squared'.format(E,m,c))
-To explain the meaning of E = mc**2, where Energy = mass X speed of light squared
-Given this nested list, use indexing to grab the word "hello"
-# different value lists nested in one list
+- nested lists
 
 # note that we break it down to show code steps, usually we can use the last code directly to locate 'hello'!
 
