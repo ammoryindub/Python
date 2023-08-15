@@ -8,7 +8,7 @@ PythoPractice
 
 - nested lists
 
-- difference between a tuple and a list
+- the difference between a tuple and a list
 
 
 # list is mutable  while a tuple is immutable 
