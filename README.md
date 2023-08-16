@@ -16,4 +16,6 @@ PythoPractice
 
 - Fibonacci Sequence
 
+- Palindrome Checker
+
 - 
