@@ -20,4 +20,4 @@ PythoPractice
 
 - Rock, Paper, Scissors Game
 
-- 
+- Word Count
