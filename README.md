@@ -18,4 +18,6 @@ PythoPractice
 
 - Palindrome Checker
 
+- Rock, Paper, Scissors Game
+
 - 
